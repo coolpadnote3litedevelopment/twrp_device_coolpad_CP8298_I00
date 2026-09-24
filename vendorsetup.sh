@@ -1,2 +1,2 @@
-add_lunch_combo omni_a7010a48-userdebug
-add_lunch_combo omni_a7010a48-eng
+add_lunch_combo omni_CP8298_I00-userdebug
+add_lunch_combo omni_CP8298_I00-eng
