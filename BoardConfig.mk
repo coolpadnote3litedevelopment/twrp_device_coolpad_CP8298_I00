@@ -51,7 +51,6 @@ BOARD_MKBOOTIMG_ARGS := --base $(BOARD_KERNEL_BASE) --pagesize $(BOARD_KERNEL_PA
 
 TARGET_PREBUILT_KERNEL := $(DEVICE_FOLDER)/prebuilt/Image.gz-dtb
 TARGET_PREBUILT_RECOVERY_KERNEL := $(DEVICE_FOLDER)/prebuilt/Image.gz-dtb
-TARGET_RECOVERY_INITRC := $(DEVICE_FOLDER)/recovery/root/init.rc
 TARGET_RECOVERY_FSTAB := $(DEVICE_FOLDER)/recovery/root/etc/recovery.fstab
 
 # Partitions informations
@@ -75,9 +74,6 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/virtual/android_usb/android0/f_m
 
 #Fix Wipe
 BOARD_SUPPRESS_SECURE_ERASE := true
-
-# SELinux
-BOARD_SEPOLICY_DIRS += $(DEVICE_FOLDER)/sepolicy
 
 # Graphics
 BOARD_USE_FRAMEBUFFER_ALPHA_CHANNEL := true
